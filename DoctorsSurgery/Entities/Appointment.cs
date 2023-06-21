@@ -11,6 +11,7 @@
         /// <summary> Reference to the identification number for the slot in Guid format </summary>
         public Guid SlotId { get; set; }
         
+        /// <summary> Time of when the appointment was created </summary> 
         public DateTime CreatedDate { get; set; }
     }
 }
